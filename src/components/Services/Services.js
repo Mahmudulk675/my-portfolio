@@ -22,7 +22,7 @@ const Services = () => {
         <div className="services">
           <li>
             <img src={webImage} alt="" />
-            <p>ReactJs/GatsbyJs Development</p>
+            <p>ReactJs/MERN Development</p>
           </li>
         </div>
       </div>

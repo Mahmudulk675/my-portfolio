@@ -73,7 +73,7 @@ const Home = () => {
         <h4 className="welcome-content">WELCOME TO MY WORLD</h4>
         <br />
         <h1 className="main-content">
-          Hi, I’m Junaid
+          Hi, I’m Mahmudul
           <motion.span
             drag={true}
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
@@ -112,7 +112,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                GatsbyJs / ReactJs Developer
+                MERN / ReactJs Developer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -121,9 +121,9 @@ const Home = () => {
 
         <h1>
           {" "}
-          from Pakistan{" "}
+          from Bangladesh{" "}
           <span role="img" aria-label="Pakistan Flag">
-            🇵🇰
+            (BD)
           </span>
         </h1>
 
@@ -135,7 +135,7 @@ const Home = () => {
             Contact Me
           </button>
           <a
-            href="https://drive.google.com/file/d/1OcuCy-u_jIeTwEokAnPcnu77F8mDP66V/view?usp=sharing"
+            href="https://drive.google.com/file/d/1EMk3iouBt4ZpLFBbfdjWKyl8N2aPpAkc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

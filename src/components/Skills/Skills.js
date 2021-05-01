@@ -15,31 +15,33 @@ const Skills = () => {
       <div className={classes.techs}>
         <LinearProgress label="HTML" value={100} color={"green"} />
         <LinearProgress label="CSS" value={95} color={"green"} />
-        <LinearProgress label="Sass" value={90} color={"green"} />
-        <LinearProgress label="Bootstrap" value={85} color={"green"} />
-        <LinearProgress label="Material UI" value={90} color={"green"} />
-        <LinearProgress label="Figma" value={90} color={"green"} />
+        {/* <LinearProgress label="Sass" value={90} color={"green"} /> */}
+        <LinearProgress label="Bootstrap" value={95} color={"green"} />
+        <LinearProgress label="Material UI" value={75} color={"yellow"} />
+        {/* <LinearProgress label="Figma" value={90} color={"green"} /> */}
 
         <LinearProgress
           label="Javascript and (ES+6)"
-          value={95}
+          value={90}
           color={"green"}
         />
         <LinearProgress label="ReactJs" value={95} color={"green"} />
-        <LinearProgress label="GatsbyJs" value={90} color={"green"} />
-        <LinearProgress label="Headless CMS" value={85} color={"green"} />
+        {/* <LinearProgress label="GatsbyJs" value={90} color={"green"} /> */}
+        {/* <LinearProgress label="Headless CMS" value={85} color={"green"} /> */}
 
-        <LinearProgress label="Typescript" value={90} color={"green"} />
+        <LinearProgress label="Typescript" value={60} color={"red"} />
 
-        <LinearProgress
+        {/* <LinearProgress
           label="GraphQl / Rest-API Consumption/Building"
           value={85}
           color={"green"}
-        />
+        /> */}
         <LinearProgress label="Firebase" value={80} color={"green"} />
-        <LinearProgress label="Python" value={85} color={"green"} />
+        <LinearProgress label="NodeJS" value={70} color={"yellow"} />
+        <LinearProgress label="MOngoDB" value={75} color={"yellow"} />
+        {/* <LinearProgress label="Python" value={85} color={"green"} /> */}
 
-        <LinearProgress label="ML Libraries" value={50} color={"green"} />
+        {/* <LinearProgress label="ML Libraries" value={50} color={"green"} /> */}
       </div>
     </section>
   );
