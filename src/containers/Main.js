@@ -9,6 +9,8 @@ import Services from "../components/Services/Services";
 import Footer from "../components/Footer/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Blogs from "../components/Blogs/Blogs";
+import AboutMe from "../components/AboutMe/AboutMe";
 
 function Main() {
   useEffect(() => {
@@ -19,9 +21,11 @@ function Main() {
     <div className="main-container">
       <Nav />
       <Home />
+      <AboutMe></AboutMe>
       <Services />
       <Skills />
       <Portfolio />
+      <Blogs></Blogs>
       <Contact />
       <Footer />
     </div>

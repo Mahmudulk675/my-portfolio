@@ -30,19 +30,19 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://diaries-manager.web.app/"
+            href="https://laptop-legend-edb43.web.app/"
           >
             <div className="project-images" id="diariesApp"></div>
           </a>
           <div className="project-links">
             <div className="text">
-              <h3>Diaries Manager App</h3>
+              <h3>Laptop Legend</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/developer-junaid/Diaries-Manager-App"
+                href="https://github.com/Mahmudulk675/Laptop-Legend"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -50,7 +50,16 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://diaries-manager.web.app/"
+                target="_blank"
+                href="https://github.com/Mahmudulk675/Laptop-Legend-Server"
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://laptop-legend-edb43.web.app/"
                 target="_blank"
               >
                 {" "}
@@ -74,20 +83,20 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://nike-shoe-store.netlify.app/"
+            href="https://sunshine-b8f0e.web.app/"
           >
             <div className="project-images" id="shoeStore"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Nike Shoe Store</h3>
+              <h3>SunShine (e-Commerce)</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/developer-junaid/Nike-Shoe-Store"
+                href="https://github.com/Mahmudulk675/sunshine-client"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -95,7 +104,16 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://nike-shoe-store.netlify.app/"
+                target="_blank"
+                href="https://github.com/Mahmudulk675/sunshine-server"
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://sunshine-b8f0e.web.app/"
                 target="_blank"
               >
                 {" "}
@@ -118,20 +136,20 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://todo-taskbox.web.app/"
+            href="https://pick-me-ride.web.app/"
           >
             <div className="project-images" id="todoList"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Todo List App</h3>
+              <h3>Pick-ME Ride</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/developer-junaid/Todo-List"
+                href="https://github.com/Mahmudulk675/pickme-ride"
               >
                 <i
                   className="fab fa-github"
@@ -141,7 +159,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://todo-taskbox.web.app/"
+                href="https://pick-me-ride.web.app/"
                 target="_blank"
               >
                 <i
@@ -299,20 +317,20 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://developer-junaid.web.app/"
+            href="https://programmer-mahmudul.web.app/"
           >
             <div className="project-images" id="devFolio"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Developer Portfolio (DevFolio)</h3>
+              <h3>My Portfolio (DevFolio)</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/developer-junaid/DeveloperFolio"
+                href="https://github.com/Mahmudulk675/my-portfolio"
               >
                 <i
                   className="fab fa-github"
@@ -322,7 +340,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://developer-junaid.web.app/"
+                href="https://programmer-mahmudul.web.app/"
                 target="_blank"
               >
                 <i
@@ -339,7 +357,7 @@ const Portfolio = () => {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="https://github.com/developer-junaid/"
+        href="https://github.com/Mahmudulk675"
         className="button-link"
       >
         <button className="button">More Projects</button>

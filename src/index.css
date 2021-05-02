@@ -17,6 +17,7 @@ body {
 .main-container {
   width: 100%;
   height: 100%;
+  
 }
 
 /* Nav */
@@ -120,7 +121,7 @@ body {
 }
 
 .main-content {
-  font-size: 4rem;
+  font-size: 3.2rem;
 }
 
 .skill-content {
@@ -317,7 +318,7 @@ body {
 }
 
 #diariesApp {
-  background-image: url("./images/projects/diaries.png");
+  background-image: url("./images/projects/laptop-legend.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -413,7 +414,7 @@ body {
   width: 170px;
   border-color: black;
   border-radius: 50%;
-  background-image: url("./images/junaid.png");
+  background-image: url("./images/my-bg.png");
   background-size: cover;
   height: 170px;
 }
@@ -710,7 +711,7 @@ body {
   }
 
   .main-content {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .skill-content {
@@ -723,7 +724,7 @@ body {
   }
 
   .welcome-content {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 

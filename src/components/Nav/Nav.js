@@ -114,6 +114,22 @@ const Nav = () => {
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
+              to="blog"
+              delay={100}
+              spy={true}
+              smooth={true}
+              offset={offset}
+              hashSpy={true}
+              duration={500}
+            >
+              Blogs
+            </Link>
+          </li>
+
+          <li className="link">
+            <Link
+              className={navbar ? "anchor scrolled" : "anchor"}
+              activeClass="active"
               to="contact"
               delay={100}
               hashSpy={true}

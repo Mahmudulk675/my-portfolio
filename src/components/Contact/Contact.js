@@ -1,7 +1,34 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 import "./../../index.css";
+import "./Contact.css"
 
 const Contact = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+emailjs.sendForm('service_ojw3jwb', 'template_f9uorxl', e.target, 'user_k6fSaq4r88HyYEJ60FCDh')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+}
+
+  // const sendEmail=(e)=>{
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_ojw3jwb', 'template_f9uorxl', e.target, 'user_k6fSaq4r88HyYEJ60FCDh')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  //     // e.target.reset();
+  // }
+
   return (
     <section className="contact-container" name="contact" id="contact">
       <div className="profile-image"></div>
@@ -34,7 +61,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/developer-junaid/"
+              href="https://github.com/Mahmudulk675"
             >
               <i className="fab fa-github" title="github" id="github"></i>
             </a>
@@ -43,7 +70,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.facebook.com/profile.php?id=100041078220896"
+              href="https://www.facebook.com/profile.php?id=100041958572940"
             >
               <i className="fab fa-facebook" title="facebook" id="facebook"></i>
             </a>
@@ -52,7 +79,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/developer-junaid/"
+              href="https://www.linkedin.com/in/mahmudul-hasan-92142414b/"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
             </a>
@@ -61,7 +88,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://twitter.com/Junaid084869/"
+              href="https://twitter.com/MHKS10"
             >
               <i className="fab fa-twitter" title="twitter" id="twitter"></i>
             </a>
@@ -70,7 +97,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.instagram.com/developerjunaid/"
+              href="https://www.instagram.com/mah_mu_dul/"
             >
               <i
                 className="fab fa-instagram"
@@ -94,6 +121,30 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+ <div>
+            <div className="container">
+            <form onSubmit={sendEmail}>
+                    <div className="row pt-5 mx-auto">
+                        <div className="col-8 form-group mx-auto">
+                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                        </div>
+                        <div className="col-8 form-group pt-2 mx-auto">
+                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                        </div>
+                        <div className="col-8 pt-3 mx-auto">
+                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
   );
 };
