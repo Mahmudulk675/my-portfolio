@@ -22,7 +22,7 @@ function Main() {
       <Nav />
       <Home />
       <AboutMe></AboutMe>
-      <Services />
+      {/* <Services /> */}
       <Skills />
       <Portfolio />
       <Blogs></Blogs>

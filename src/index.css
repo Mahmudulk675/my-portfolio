@@ -103,11 +103,11 @@ body {
   display: flex;
   color: white;
   flex-direction: row;
-  height: 100%;
+  height: 120%;
   padding: 1rem;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .content-container {
@@ -300,13 +300,13 @@ body {
 }
 
 #shoeStore {
-  background-image: url("./images/projects/nike.png");
+  background-image: url("./images/projects/sunshine.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #todoList {
-  background-image: url("./images/projects/todo.png");
+  background-image: url("./images/projects/pickme.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -324,7 +324,7 @@ body {
 }
 
 #devFolio {
-  background-image: url("./images/projects/devFolio.png");
+  background-image: url("./images/projects/portfolio.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -629,6 +629,8 @@ body {
 @media screen and (max-width: 1150px) {
   .home-container {
     flex-direction: column;
+    min-height: 120vh;
+    height: 100%;
   }
   .content-container {
     padding-top: 5rem;

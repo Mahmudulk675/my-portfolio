@@ -62,7 +62,7 @@ const Nav = () => {
             </Link>
           </li>
 
-          <li className="link">
+          {/* <li className="link">
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
@@ -76,7 +76,7 @@ const Nav = () => {
             >
               Services
             </Link>
-          </li>
+          </li> */}
 
           <li className="link">
             <Link
