@@ -9,7 +9,7 @@ body {
   /* background: #fff; */
   background: radial-gradient(at top left, rgb(0, 0, 0) 0%, #0a020ac0 100%);
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -17,7 +17,6 @@ body {
 .main-container {
   width: 100%;
   height: 100%;
-  
 }
 
 /* Nav */
@@ -414,7 +413,7 @@ body {
   width: 170px;
   border-color: black;
   border-radius: 50%;
-  background-image: url("./images/my-bg.png");
+  background-image: url("/images/my-bg.png");
   background-size: cover;
   height: 170px;
 }
@@ -629,7 +628,7 @@ body {
 @media screen and (max-width: 1150px) {
   .home-container {
     flex-direction: column;
-    min-height: 120vh;
+    min-height: 80vh;
     height: 100%;
   }
   .content-container {
@@ -640,7 +639,8 @@ body {
     text-align: center;
   }
   .svg-container {
-    width: 100vw;
+    /* width: 100vw; */
+    display: none;
   }
 }
 
@@ -688,10 +688,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
   }
 
   .svg {
-    height: 60%;
+    /* height: 60%; */
+    display: none;
   }
 }
 
@@ -754,4 +756,10 @@ body {
   .button {
     font-size: 0.8rem;
   }
+}
+
+.projects-card:hover {
+  z-index: 1;
+  transform: scale(1.04);
+  transition: 1.5s;
 }

@@ -10,7 +10,9 @@ const Skills = () => {
       name="skills"
       id="skills"
     >
-      <h1 className="heading">What I Am Good At &nbsp;&nbsp;?</h1>
+      <h1 className="heading">
+        <span style={{ color: "white" }}> What I Am Good At &nbsp;&nbsp;?</span>
+      </h1>
 
       <div className={classes.techs}>
         <LinearProgress label="HTML" value={100} color={"green"} />
@@ -18,7 +20,7 @@ const Skills = () => {
         {/* <LinearProgress label="Sass" value={90} color={"green"} /> */}
         <LinearProgress label="Bootstrap" value={95} color={"green"} />
         <LinearProgress label="Material UI" value={75} color={"yellow"} />
-        {/* <LinearProgress label="Figma" value={90} color={"green"} /> */}
+        <LinearProgress label="Figma" value={70} color={"yellow"} />
 
         <LinearProgress
           label="Javascript and (ES+6)"
@@ -37,8 +39,15 @@ const Skills = () => {
           color={"green"}
         /> */}
         <LinearProgress label="Firebase" value={80} color={"green"} />
-        <LinearProgress label="NodeJS" value={70} color={"yellow"} />
-        <LinearProgress label="MOngoDB" value={75} color={"yellow"} />
+        <LinearProgress
+          label="Redux and Context API"
+          value={85}
+          color={"green"}
+        />
+
+        <LinearProgress label="NodeJS" value={80} color={"green"} />
+        <LinearProgress label="MongoDB" value={80} color={"green"} />
+        <LinearProgress label="ExpressJS" value={80} color={"green"} />
         {/* <LinearProgress label="Python" value={85} color={"green"} /> */}
 
         {/* <LinearProgress label="ML Libraries" value={50} color={"green"} /> */}
