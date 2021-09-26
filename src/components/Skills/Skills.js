@@ -28,10 +28,10 @@ const Skills = () => {
           color={"green"}
         />
         <LinearProgress label="ReactJs" value={95} color={"green"} />
-        {/* <LinearProgress label="GatsbyJs" value={90} color={"green"} /> */}
+        <LinearProgress label="Vue js" value={80} color={"green"} />
         {/* <LinearProgress label="Headless CMS" value={85} color={"green"} /> */}
 
-        <LinearProgress label="Typescript" value={60} color={"red"} />
+        <LinearProgress label="Typescript" value={70} color={"yellow"} />
 
         {/* <LinearProgress
           label="GraphQl / Rest-API Consumption/Building"
@@ -48,7 +48,7 @@ const Skills = () => {
         <LinearProgress label="NodeJS" value={80} color={"green"} />
         <LinearProgress label="MongoDB" value={80} color={"green"} />
         <LinearProgress label="ExpressJS" value={80} color={"green"} />
-        {/* <LinearProgress label="Python" value={85} color={"green"} /> */}
+        <LinearProgress label="Shopify" value={70} color={"green"} />
 
         {/* <LinearProgress label="ML Libraries" value={50} color={"green"} /> */}
       </div>

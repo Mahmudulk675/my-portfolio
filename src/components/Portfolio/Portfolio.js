@@ -393,67 +393,80 @@ const Portfolio = () => {
       name="portfolio"
       id="portfolio"
     >
+      {/* Test */}
       <div className="container ">
         <div className="row">
           {ProjectData.map((pd) => (
             <div className="col-md-4 mt-5 d-flex justify-content-center">
-              <div className="card projects-card" style={{ width: "18rem" }}>
-                <img
-                  src={pd.image}
-                  style={{ padding: "5px" }}
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body" style={{ background: "lightGray" }}>
-                  <h4 className="card-title" style={{ color: "black" }}>
-                    {pd.name}
-                  </h4>
-                  <p className="card-text" style={{ color: "gray" }}>
-                    {pd.destination}
-                  </p>
-                  <div className="links">
-                    <a
-                      style={{ marginLeft: "10px" }}
-                      href={pd.links?.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Launch />
-                    </a>
+              <div className="card-sl " style={{ width: "19rem" }}>
+                <div className="card-image bg-white rounded">
+                  <img
+                    src={pd.image}
+                    style={{ padding: "5px" }}
+                    className="img-fluid"
+                    alt="..."
+                  />
+                </div>
+                <a
+                  className="card-action"
+                  href={pd.links?.live}
+                  target="_blank"
+                  alt=""
+                ></a>
+
+                <div className="card-heading text-primary">{pd.name}</div>
+                <div className="card-text">{pd?.description}</div>
+                <div className="links pb-3 bg-white">
+                  {/* <a
+                    style={{ marginLeft: "10px" }}
+                    href={pd.links?.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Launch />
+                  </a> */}
+                  <a
+                    style={{ marginLeft: "15px" }}
+                    href={pd.links?.frontend}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GitHub />
+                  </a>
+                  {pd.links.backend ? (
                     <a
                       style={{ marginLeft: "15px" }}
-                      href={pd.links?.frontend}
+                      href={pd.links.backend}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <GitHub />
                     </a>
-                    {pd.links.backend ? (
-                      <a
-                        style={{ marginLeft: "15px" }}
-                        href={pd.links.backend}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <GitHub />
-                      </a>
-                    ) : null}
-                    {pd.links.socket ? (
-                      <a
-                        style={{ marginLeft: "15px" }}
-                        href={pd.links.socket}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <GitHub />
-                      </a>
-                    ) : null}
-                  </div>
+                  ) : null}
+                  {pd.links.socket ? (
+                    <a
+                      style={{ marginLeft: "15px" }}
+                      href={pd.links.socket}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHub />
+                    </a>
+                  ) : null}
                 </div>
+                <a
+                  href={pd.links?.live}
+                  target="_blank"
+                  className="card-button"
+                >
+                  {" "}
+                  Explore <Launch />
+                </a>
               </div>
             </div>
           ))}
         </div>
+
         {/* <a
           rel="noopener noreferrer"
           target="_blank"
